@@ -12,7 +12,7 @@ int main(int argc, const char* argv[], const char* envp[]) {
             break;
         scanf("%d", score);
 
-        sprintf(fp, "%s %d\n", name, score);
+        fprintf(fp, "%s %d\n", name, score);
     }
 
     fclose(fp);
