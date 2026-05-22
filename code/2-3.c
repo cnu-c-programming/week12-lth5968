@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void logger(char* message) {
-  FILE fp = fopen("log.txt", "a");
+  FILE* fp = fopen("log.txt", "a");
   fprint(fp, "%s/n", message);
 }
 
